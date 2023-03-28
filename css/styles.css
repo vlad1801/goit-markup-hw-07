@@ -331,7 +331,7 @@ button {
 ( •.•)
 / >s2
 */
-.about-section {
+/* .about-section {
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
@@ -375,7 +375,7 @@ button {
 }
 .about-svg-item:not(:last-child) {
 	margin-right: 24px;
-}
+} */
 
 /*
 (\_/)
@@ -1211,7 +1211,10 @@ button {
 	background-position: center top;
 	padding-top: 112px;
 	padding-bottom: 112px;
+	background: var(--Navyblue-color);
+	
 }
+
 .hero-title {
 	
 	font-weight: 700;
@@ -1281,6 +1284,7 @@ button {
 		padding-bottom: 188px;
 		margin-right: auto;
 		margin-left: auto;
+		
 		max-width: 1440px;
 	}
 }
@@ -1291,37 +1295,55 @@ button {
 	.box {
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 			url("../images/people-office\ 12x.jpg");
+		
+	}
+	.hero-title {
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 1.07;
+		color: var(--white-color);
+		letter-spacing: 0.02em;
+		display: flex;
+		width: 496px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 48px;
+		text-align: center;
 	}
 }
-/* .hero-title {
-	font-weight: 700;
-	font-size: 56px;
-	line-height: 1.07;
-	color: var(--white-color);
-	letter-spacing: 0.02em;
-	display: flex;
-	width: 496px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 48px;
-	text-align: center;
+/*
+(\_/)
+( •.•)
+/ >menu-s2
+*/
+.about-svg-box {
+	display: none;
 }
-.hero-icon {
-	font-family: "Roboto", sans-serif;
-	background: var(--Iris-color);
-	cursor: pointer;
-	letter-spacing: 0.04em;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	color: var(--white-color);
-	border-radius: 4px;
-	border: 0;
+.about-section {
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+.about-last:not(:last-child)  {
+	margin-bottom: 72px;
+}
+.about-mind  {
+	
+}
+.about-title {
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
 
-	padding: 16px 32px;
-	gap: 10px;
-	border-radius: 4px;
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-} */
+text-align: center;
+letter-spacing: 0.02em;
+
+}
+.about-text {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
