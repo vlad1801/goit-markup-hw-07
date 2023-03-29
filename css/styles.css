@@ -1203,6 +1203,7 @@ button {
 / >menu-main
 */
 .box {
+	background: var(--Navyblue-color);
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 		url("../images/Dark-bg\ \(1\)\ \(1\).jpg");
 	background-size: cover;
@@ -1211,12 +1212,9 @@ button {
 	background-position: center top;
 	padding-top: 112px;
 	padding-bottom: 112px;
-	background: var(--Navyblue-color);
-	
 }
 
 .hero-title {
-	
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
@@ -1234,7 +1232,6 @@ button {
 	text-align: center;
 }
 .hero-icon {
-
 	font-family: "Roboto", sans-serif;
 	background: var(--Iris-color);
 	cursor: pointer;
@@ -1284,7 +1281,7 @@ button {
 		padding-bottom: 188px;
 		margin-right: auto;
 		margin-left: auto;
-		
+
 		max-width: 1440px;
 	}
 }
@@ -1295,7 +1292,6 @@ button {
 	.box {
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 			url("../images/people-office\ 12x.jpg");
-		
 	}
 	.hero-title {
 		font-weight: 700;
@@ -1316,34 +1312,66 @@ button {
 ( •.•)
 / >menu-s2
 */
-.about-svg-box {
-	display: none;
-}
+
 .about-section {
 	padding-top: 96px;
 	padding-bottom: 96px;
 }
-.about-last:not(:last-child)  {
-	margin-bottom: 72px;
-}
-.about-mind  {
-	
+
+.about-mind {
 }
 .about-title {
-	font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
 
-text-align: center;
-letter-spacing: 0.02em;
-
+	text-align: center;
+	letter-spacing: 0.02em;
 }
 .about-text {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--SLATE-color);
+}
+@media screen and (max-width: 767px) {
+	.about-svg-box {
+		display: none;
+	}
+	.about-last:not(:last-child) {
+		margin-bottom: 72px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.about-svg-box {
+		display: none;
+	}
+	.asd {
+        margin-right: 24px;
+	}
+	.vvp {
+		margin-bottom: 72px;
+	}
+	
+	.about-mind {
+		display: flex;
+		flex-wrap: wrap;
+		
+
+
+
+	}
+	.about-last {
+		width: 356px;
+		
+		
+			
+	}
+	
+	
+}
+@media screen and (min-width: 1200px) {
 }
