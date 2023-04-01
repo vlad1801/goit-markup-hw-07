@@ -1420,7 +1420,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 	.nav-call-mobile {
 		font-style: normal;
 		font-weight: 600;
-		font-size: 36px;
+		font-size: 24px;
 		line-height: 40px;
 
 		color: var(--Iris-color);
@@ -1443,9 +1443,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 		justify-content: space-between;
 		padding: 0px;
 	}
-	.svg-item-mobile {
-		margin-right: 56px;
-	}
+	
 
 	.mobile-menu {
 		position: fixed;
@@ -1508,6 +1506,12 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 	.mobile-btn:focus .mobile-icon {
 		stroke: var(--Iris-color);
 	}
+}
+@media screen and (min-width: 428px) {
+	.nav-call-mobile {
+		font-size: 36px;
+	}
+
 }
 @media screen and (min-width: 768px) {
 	.about-svg-box {
