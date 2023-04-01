@@ -1213,7 +1213,7 @@ button {
 .box {
 	background: var(--Navyblue-color);
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-		url("../images/Dark-bg\ \(1\)\ \(1\).jpg");
+		url("../images/Dark-bg1.jpg");
 	padding: 112px 0;
 	max-width: 100%;
 	margin-left: auto;
@@ -1264,12 +1264,12 @@ button {
 	screen and (min-resolution: 2dppx) and (max-width: 768px) {
 	.box {
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-			url("../images/Dark-bg2x\ \(2\).jpg");
+			url("../images/Dark-bg2x2.jpg");
 	}
 }
 @media screen and (min-width: 768px) {
 	.box {
-		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/Dark-bg\ \(2\).jpg");
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/Dark-bg3.jpg");
 		padding-top: 112px;
 		padding-bottom: 112px;
 	}
@@ -1292,7 +1292,7 @@ button {
 	screen and (min-resolution: 2dppx) and (min-width: 768px) {
 	.box {
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-			url("../images/Dark-bg2x\ \(1\)\ \(1\).jpg");
+			url("../images/Dark-bg2x4.jpg");
 	}
 }
 
